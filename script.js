@@ -40,3 +40,13 @@ for (let i = 1; i <= 10; i++) {
         console.log ("Par:", i)
     }
 }
+
+// Exercício 4 - Soma com while
+
+let soma = 0;
+let contador = 1;
+while (contador <= 5) {
+  soma += contador;
+  contador++;
+}
+console.log("Soma total:", soma); 
