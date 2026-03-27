@@ -32,3 +32,11 @@ switch (nota) {
     console.log("Nota insuficiente");
     break;
 }
+
+// Exercício 3 - Listando Números Pares
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        console.log ("Par:", i)
+    }
+}
